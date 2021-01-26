@@ -32,9 +32,9 @@ L.Control.Measure = L.Control.extend({
   options: {
     units: {},
     position: 'topright',
-    primaryLengthUnit: 'feet',
-    secondaryLengthUnit: 'miles',
-    primaryAreaUnit: 'acres',
+    primaryLengthUnit: 'meters',
+    secondaryLengthUnit: ' meters',
+    primaryAreaUnit: 'hectares',
     activeColor: '#ABE67E', // base color for map features while actively measuring
     completedColor: '#C8F2BE', // base color for permenant features generated from completed measure
     captureZIndex: 10000, // z-index of the marker used to capture measure events
@@ -271,9 +271,9 @@ L.Control.Measure = L.Control.extend({
       const unitDisplays = {
         acres: __('acres'),
         feet: __('feet'),
-        kilometers: __('kilometers'),
-        hectares: __('hectares'),
-        meters: __('meters'),
+        kilometers: __('kilometros'),
+        hectares: __('hectareas'),
+        meters: __('metros'),
         miles: __('miles'),
         sqfeet: __('sqfeet'),
         sqmeters: __('sqmeters'),
